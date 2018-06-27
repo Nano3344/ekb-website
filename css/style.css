@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+ src: url("/fonts/dodger.ttf");
+ font-family: dodger;
+}
+body {
+  background-color: #29B6F6;
+}
+h2 {
+  font-family: dodger;
+  font-weight: lighter;
+  color: #FF5722;
+}
+header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0;
+  animation: 1s fadein 0.5s forwards;
+  opacity: 0;
+  color: #fff;
+}
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 1100px) {
+
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  padding: 30px;
+}
+header li a {
+  color: #FF5722;
+  text-decoration: none;
+  font-family: Quicksand;
+}
+header li a:hover {
+  transition: 0.5s;
+  color: #FF5722;
+}

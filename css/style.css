@@ -10,7 +10,7 @@
 body {
   background-color: #29B6F6;
 }
-h2 {
+header h2 {
   font-family: dodger;
   font-weight: lighter;
   color: #FF5722;
@@ -50,4 +50,25 @@ header li a {
 header li a:hover {
   transition: 0.5s;
   color: #FF5722;
+}
+.hero-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-family: Quicksand;
+}
+
+.hero-footer i {
+  padding: 20px;
+  float: right;
+}
+.hero-footer p {
+  padding: 25px;
+  float: right;
+}
+@media (max-width:600px) {
+    .hero-footer {
+      position: relative;
+    }
 }

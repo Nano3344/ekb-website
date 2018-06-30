@@ -51,14 +51,25 @@ header li a:hover {
   transition: 0.5s;
   color: #FF5722;
 }
+@media (max-width:1400px) {
+  header li a {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  header li a {
+    font-size: 10px;
+  }
+}
 .hero-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   color: white;
   font-family: Quicksand;
+  display: flex;
+  justify-content: space-between;
 }
-
 .hero-footer i {
   padding: 20px;
   float: right;

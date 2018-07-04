@@ -7,24 +7,7 @@
 .hero-wrapper {
   padding-top: 200px;
   padding-left: 100px;
-  width: 800px;
-}
-@media (max-width: 800px) {
-  .hero-wrapper {
-    width: 500px;
-  }
-}
-@media (max-width: 600px) {
-  .hero-wrapper {
-    text-align: justify;
-    width: 400px;
-  }
-}
-@media (max-width: 500px) {
-  .hero-wrapper {
-    text-align: justify;
-    width: 300px;
-  }
+  max-width: 800px;
 }
 .hero-textfield {
   padding-top: 20px;
@@ -33,7 +16,7 @@
   font-family: Quicksand;
 }
 .hero-side-section {
-  width: 500px;
+  max-width: 500px;
   float: right;
   margin-top: -250px;
 }

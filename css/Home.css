@@ -20,6 +20,11 @@
   float: right;
   margin-top: -250px;
 }
+.hero-side-section img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
 .hero-side-section a {
   color: white;
   font-family: Quicksand;

@@ -59,7 +59,7 @@ header li a:hover {
   }
 }
 .hero-footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   color: white;
@@ -75,9 +75,4 @@ header li a:hover {
 .hero-footer p {
   padding: 25px;
   float: right;
-}
-@media (max-width:600px) {
-    .hero-footer {
-      position: relative;
-    }
 }

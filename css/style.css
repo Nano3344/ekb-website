@@ -76,3 +76,29 @@ header li a:hover {
   padding: 25px;
   float: right;
 }
+.hero-side-section {
+  max-width: 500px;
+  float: right;
+  padding: 10px;
+  margin-top: -250px;
+}
+.hero-side-section a {
+  color: white;
+  text-align: center;
+  font-family: Quicksand;
+  text-decoration: none;
+  background-color: #FF5722;
+  padding: 6px 20px;
+}
+.hero-side-section a:hover {
+  transition: 0.5s;
+  background-color: #E64A19;
+}
+.hero-side-section h2 {
+  color: white;
+  font-family: sans-serif;
+}
+.hero-side-section p {
+  font-family: Quicksand;
+  color: white;
+}

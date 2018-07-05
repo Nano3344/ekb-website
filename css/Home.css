@@ -15,28 +15,3 @@
   text-align: justify;
   font-family: Quicksand;
 }
-.hero-side-section {
-  max-width: 500px;
-  float: right;
-  margin-top: -250px;
-}
-.hero-side-section img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-}
-.hero-side-section a {
-  color: white;
-  font-family: Quicksand;
-  text-decoration: none;
-  background-color: #FF5722;
-  border-radius: 75px;
-  padding: 10px 25px;
-}
-.hero-side-section a:hover {
-  transition: 0.5s;
-  background-color: #E64A19;
-}
-@media (max-width:) {
-
-}

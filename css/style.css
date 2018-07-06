@@ -48,16 +48,6 @@ header li a:hover {
   transition: 0.5s;
   color: #FF5722;
 }
-@media (max-width:1400px) {
-  header li a {
-    font-size: 12px;
-  }
-}
-@media (max-width: 1200px) {
-  header li a {
-    font-size: 10px;
-  }
-}
 .hero-footer {
   position: fixed;
   bottom: 0;
@@ -77,6 +67,7 @@ header li a:hover {
   float: right;
 }
 .hero-side-section {
+  background-color: white;
   max-width: 500px;
   float: right;
   padding: 10px;
@@ -84,7 +75,6 @@ header li a:hover {
 }
 .hero-side-section a {
   color: white;
-  text-align: center;
   font-family: Quicksand;
   text-decoration: none;
   background-color: #FF5722;
@@ -95,10 +85,19 @@ header li a:hover {
   background-color: #E64A19;
 }
 .hero-side-section h2 {
-  color: white;
+  font-size: 18px;
+  text-align: center;
+  color: #FF5722;
   font-family: sans-serif;
 }
 .hero-side-section p {
+  font-size: 13px;
+  padding: 10px;
   font-family: Quicksand;
-  color: white;
+  color: #FF5722;
+}
+@media (max-width: 1100px) {
+  .hero-side-section {
+    padding: 0px;
+  }
 }

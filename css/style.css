@@ -28,6 +28,14 @@ header {
   opacity: 0;
   color: #fff;
 }
+@media (max-width: 1300px) {
+   header h2 {
+     font-size: 20px;
+   }
+   header li a{
+     font-size: 12px;
+   }
+}
 @keyframes fadein {
   100% {
     opacity: 1;
@@ -37,7 +45,7 @@ header li {
   list-style: none;
   display: inline-block;
   float: right;
-  padding: 30px;
+  padding: 20px;
 }
 header li a {
   color: #FF5722;
@@ -49,7 +57,7 @@ header li a:hover {
   color: #FF5722;
 }
 .hero-footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   color: white;
@@ -63,15 +71,18 @@ header li a:hover {
   float: right;
 }
 .hero-footer p {
-  padding: 25px;
+  padding: 20px;
   float: right;
+}
+.side-wrapper {
+height: 100vh;
+display: flex;
+align-items: center;
+float: right;
 }
 .hero-side-section {
   background-color: white;
-  max-width: 500px;
-  float: right;
   padding: 10px;
-  margin-top: -250px;
 }
 .hero-side-section a {
   color: white;

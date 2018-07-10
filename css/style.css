@@ -75,9 +75,6 @@ header li a:hover {
   float: right;
 }
 .side-wrapper {
-height: 100vh;
-display: flex;
-align-items: center;
 float: right;
 }
 .hero-side-section {

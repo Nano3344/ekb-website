@@ -78,12 +78,15 @@ header li a:hover {
 float: right;
 }
 .hero-side-section {
+  float: right;
+  max-width: 250px;
   background-color: white;
   padding: 10px;
 }
 .hero-side-section a {
   color: white;
   font-family: Quicksand;
+  text-align: center;
   text-decoration: none;
   background-color: #FF5722;
   padding: 6px 20px;
@@ -99,8 +102,8 @@ float: right;
   font-family: sans-serif;
 }
 .hero-side-section p {
-  font-size: 13px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 14px;
   font-family: Quicksand;
   color: #FF5722;
 }

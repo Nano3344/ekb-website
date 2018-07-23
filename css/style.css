@@ -52,34 +52,14 @@ header li a {
   text-decoration: none;
   font-family: Quicksand;
 }
-header li a:hover {
-  transition: 0.5s;
-  color: #FF5722;
-}
-.hero-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  font-family: Quicksand;
-  display: flex;
-  justify-content: space-between;
-}
-.hero-footer i {
-  color: white;
-  padding: 20px;
-  float: right;
-}
-.hero-footer p {
-  padding: 20px;
-  float: right;
+@media (max-width:1100px) {
+   header li a {
+     visibility: hidden;
+   }
 }
 .side-wrapper {
 padding-right: 100px;
-height: 100vh;
-display: flex;
-align-items: center;
-float: right;
+margin-top: -230px;
 }
 .hero-side-section {
   float: right;
@@ -110,4 +90,22 @@ float: right;
   padding: 12px;
   font-family: Quicksand;
   color: #FF5722;
+}
+.hero-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-family: Quicksand;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-footer i {
+  color: white;
+  padding: 20px;
+  float: right;
+}
+.hero-footer p {
+  padding: 20px;
+  float: right;
 }

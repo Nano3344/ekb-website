@@ -57,7 +57,7 @@ header li a:hover {
   color: #FF5722;
 }
 .hero-footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   color: white;
@@ -75,6 +75,10 @@ header li a:hover {
   float: right;
 }
 .side-wrapper {
+padding-right: 100px;
+height: 100vh;
+display: flex;
+align-items: center;
 float: right;
 }
 .hero-side-section {
@@ -103,7 +107,7 @@ float: right;
 }
 .hero-side-section p {
   font-size: 15px;
-  padding: 14px;
+  padding: 12px;
   font-family: Quicksand;
   color: #FF5722;
 }

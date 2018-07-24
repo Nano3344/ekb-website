@@ -57,40 +57,6 @@ header li a {
      visibility: hidden;
    }
 }
-.side-wrapper {
-padding-right: 100px;
-margin-top: -230px;
-}
-.hero-side-section {
-  float: right;
-  max-width: 250px;
-  background-color: white;
-  padding: 10px;
-}
-.hero-side-section a {
-  color: white;
-  font-family: Quicksand;
-  text-align: center;
-  text-decoration: none;
-  background-color: #FF5722;
-  padding: 6px 20px;
-}
-.hero-side-section a:hover {
-  transition: 0.5s;
-  background-color: #E64A19;
-}
-.hero-side-section h2 {
-  font-size: 18px;
-  text-align: center;
-  color: #FF5722;
-  font-family: sans-serif;
-}
-.hero-side-section p {
-  font-size: 15px;
-  padding: 12px;
-  font-family: Quicksand;
-  color: #FF5722;
-}
 .hero-footer {
   position: fixed;
   bottom: 0;

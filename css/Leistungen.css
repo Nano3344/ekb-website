@@ -8,11 +8,12 @@
   color: white;
   text-align: justify;
 }
-.hero-side-buttons a {
+.hero-side-buttons {
   float: right;
-  margin-top: -50px;
-  display: block;
+}
+.hero-side-buttons li a {
   color: white;
-  font-family: Quicksand;
   text-decoration: none;
+  list-style-type: none;
+  font-family: Quicksand;
 }

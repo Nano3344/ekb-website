@@ -11,9 +11,11 @@
 .hero-side-buttons {
   float: right;
 }
+.hero-side-buttons li {
+  list-style: none;
+}
 .hero-side-buttons li a {
   color: white;
   text-decoration: none;
-  list-style-type: none;
   font-family: Quicksand;
 }

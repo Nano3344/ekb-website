@@ -30,7 +30,7 @@ header {
 }
 @media (max-width: 1300px) {
    header h2 {
-     font-size: 20px;
+     font-size: 16px;
    }
    header li a{
      font-size: 12px;
@@ -49,6 +49,7 @@ header li {
 }
 header li a {
   color: #FF5722;
+  font-size: 14px;
   text-decoration: none;
   font-family: Quicksand;
 }
@@ -60,6 +61,8 @@ header li a {
 .hero-footer {
   position: fixed;
   bottom: 0;
+  animation: 1s fadein 0.5s forwards;
+  opacity: 0;
   width: 100%;
   color: white;
   font-family: Quicksand;

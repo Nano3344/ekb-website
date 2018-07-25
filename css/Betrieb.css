@@ -16,7 +16,6 @@
 .service-button {
   display: flex;
   justify-content: center;
-  margin-top: -150px;
 }
 .service-button a{
   padding: 6px 20px;

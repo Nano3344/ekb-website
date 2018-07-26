@@ -45,9 +45,6 @@ header li a {
   text-decoration: none;
   font-family: Quicksand;
 }
-.responsive-nav {
-  visibility: hidden;
-}
 @media (max-width:1100px) {
    header li a {
      visibility: hidden;

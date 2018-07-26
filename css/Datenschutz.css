@@ -1,0 +1,13 @@
+main .textfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textfield {
+  max-width: 600px;
+  text-align: justify;
+}
+.textfield p{
+   color: white;
+   font-family: Quicksand;
+}

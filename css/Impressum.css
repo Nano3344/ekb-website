@@ -1,0 +1,15 @@
+.textfield {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.textfield p{
+  max-width: 900px;
+  text-align: justify;
+  padding: 20px;
+  background-color: white;
+  color: #FF5722;
+  font-size: 13px;
+  font-family: Quicksand;
+}

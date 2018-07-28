@@ -8,6 +8,12 @@
   color: white;
   text-align: justify;
 }
+.main-text li {
+  font-family: Quicksand;
+  padding-top: 5px;
+  color: white;
+  text-align: justify;
+}
 .hero-side-buttons {
   float: right;
 }

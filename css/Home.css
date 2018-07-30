@@ -16,14 +16,13 @@
   font-family: Quicksand;
 }
 .side-wrapper {
-padding-right: 100px;
 margin-top: -230px;
 }
 .hero-side-section {
   float: right;
   max-width: 250px;
   background-color: white;
-  padding: 10px;
+  padding: 5px;
 }
 .contact-button {
   display: flex;
@@ -42,12 +41,13 @@ margin-top: -230px;
   background-color: #E64A19;
 }
 .hero-side-section h2 {
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
   color: #FF5722;
   font-family: sans-serif;
 }
 .hero-side-section p {
+  text-align: center;
   font-size: 12px;
   padding: 12px;
   font-family: Quicksand;

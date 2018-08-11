@@ -7,11 +7,15 @@
  src: url("/fonts/dodger.ttf");
  font-family: dodger;
 }
+.ud_menu_active {
+border-bottom: 1px solid #FF5722;
+}
 body {
   background-color: #29B6F6;
 }
 header h2 {
   font-family: dodger;
+  font-size: 18px;
   font-weight: lighter;
   color: #FF5722;
 }

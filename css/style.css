@@ -75,10 +75,28 @@ header li a {
 }
 .hero-footer i {
   color: white;
-  padding: 20px;
+  padding: 17px;
   float: right;
 }
 .hero-footer p {
   padding: 20px;
   float: right;
+}
+@media (max-width:700px) {
+   .hero-footer i {
+     transform: scale(.7, .7);
+     padding: 12px;
+   }
+   .hero-footer p {
+      font-size: 12px;
+   }
+}
+@media (max-width: 550px) {
+  .hero-footer i {
+    transform: scale(.5, .5);
+    padding: 8px;
+  }
+  .hero-footer p {
+     font-size: 8px;
+  }
 }

@@ -16,11 +16,11 @@
   font-family: Quicksand;
 }
 .side-wrapper {
-margin-top: -230px;
+margin-top: -278px;
 }
 .hero-side-section {
   float: right;
-  max-width: 250px;
+  max-width: 150px;
   background-color: white;
   padding: 2px;
 }
@@ -31,6 +31,7 @@ margin-top: -230px;
 }
 .contact-button a {
   color: white;
+  font-size: 12px;
   font-family: Quicksand;
   text-decoration: none;
   padding: 6px 20px;
@@ -49,7 +50,7 @@ margin-top: -230px;
 .hero-side-section p {
   text-align: center;
   font-size: 12px;
-  padding: 6px;
+  padding: 10px 6px;
   font-family: Quicksand;
   color: #FF5722;
 }

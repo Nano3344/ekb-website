@@ -6,6 +6,8 @@ if(isset($_POST['submit'])) {
   $email = $_POST['Email'];
   $nachricht = $_POST['Nachricht'];
 
+  setcookie('information', $name, $betreff, $email, $nachricht, time()+3600);
+
   $mailTo = $email;
   $headers = "From: ".$email;
   $txt = "You have received an email from ".$name.".\n\n".$nachricht;

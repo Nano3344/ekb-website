@@ -1,14 +1,33 @@
 .textfield {
   display: flex;
+  padding-top: 200px;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
-.textfield p{
+.textfield div{
   max-width: 900px;
   text-align: justify;
   padding: 20px;
   color: white;
   font-size: 13px;
   font-family: Quicksand;
+}
+.textfield h3 {
+  text-align: center;
+}
+.datafield {
+  font-size: 15px;
+  text-align: center;
+  padding: 50px;
+}
+.textfield .quelle  {
+  padding: 15px;
+  text-align: center;
+}
+.textfield .quelle a {
+  color: white;
+}
+.hero-footer {
+  position: relative;
 }

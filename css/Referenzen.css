@@ -3,9 +3,18 @@
   justify-content: center;
 }
 .grid-layout {
+  padding-top: 200px;
+  max-width: 1200px;
+}
+.grid-layout div {
   display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-column-gap: 2em;
 }
 .grid-layout p {
   color: white;
   font-family: Quicksand;
+}
+.hero-footer {
+  position: relative;
 }

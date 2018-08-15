@@ -1,3 +1,17 @@
+.burger-menu {
+  width: 50px;
+  float: right;
+  margin: 90px 20px;
+}
+.burger-menu div{
+   background-color: white;
+   border-radius: 50px;
+   margin: 8px 0px;
+   height: 5px;
+}
+.burger-menu:hover {
+  
+}
 .hero-wrapper {
   padding-top: 150px;
   padding-left: 100px;
@@ -15,6 +29,9 @@
   text-align: justify;
   font-family: Quicksand;
 }
+.hero-textfield a {
+  color: #FF5722;
+}
 .side-wrapper {
 margin-top: -278px;
 }
@@ -23,6 +40,7 @@ margin-top: -278px;
   max-width: 150px;
   background-color: white;
   padding: 2px;
+  visibility: hidden;
 }
 .contact-button {
   display: flex;

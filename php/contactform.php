@@ -10,10 +10,9 @@ if(isset($_POST['submit'])) {
 
   setcookie('Information', $name, $betreff, $email, $nachricht, time()+3600);
 
-  $mailTo = "malik.ebers@web.de";
   $headers = "From: $emailFrom \r\n";
   $txt = "You have received an email from ".$name.".\n\n".$nachricht;
 
-  mail($mailTo, $betreff, $nachricht, $headers);
+  mail($email, $betreff, $nachricht, $headers);
   header("Location: ../index.html");
 }

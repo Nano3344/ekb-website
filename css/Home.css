@@ -29,14 +29,12 @@
 .hero-textfield a {
   color: #FF5722;
 }
-.side-wrapper {
-margin-top: -278px;
-}
-.hero-side-section {
+.dropdown-content {
   float: right;
   max-width: 150px;
   background-color: white;
   padding: 2px;
+  display: none;
 }
 .contact-button {
   display: flex;
@@ -51,17 +49,17 @@ margin-top: -278px;
   padding: 6px 20px;
   background-color: #FF5722;
 }
-.hero-side-section a:hover {
+.dropdown-content a:hover {
   transition: 0.5s;
   background-color: #29B6F6;
 }
-.hero-side-section h2 {
+.dropdown-content h2 {
   font-size: 15px;
   text-align: center;
   color: #FF5722;
   font-family: sans-serif;
 }
-.hero-side-section p {
+.dropdown-content p {
   text-align: center;
   font-size: 12px;
   padding: 10px 6px;

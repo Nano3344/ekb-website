@@ -6,12 +6,14 @@ if(isset($_POST['submit'])) {
   $email = $_POST['Email'];
   $nachricht = $_POST['Nachricht'];
 
-  setcookie('information', $name, $betreff, $email, $nachricht, time()+3600);
+  $emailFrom = "kontakt@ekb-energy.de";
 
-  $mailTo = $email;
-  $headers = "From: ".$email;
+  setcookie('Information', $name, $betreff, $email, $nachricht, time()+3600);
+
+  $mailTo = "malik.ebers@web.de";
+  $headers = "From: $emailFrom \r\n";
   $txt = "You have received an email from ".$name.".\n\n".$nachricht;
 
   mail($mailTo, $betreff, $nachricht, $headers);
-  header("Location: Kontakt.html?mailsend");
+  header("Location: ../index.html");
 }

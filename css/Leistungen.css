@@ -14,14 +14,15 @@
   color: white;
   text-align: justify;
 }
-.hero-side-buttons {
-  float: right;
+.image-gallery {
+
 }
-.hero-side-buttons li {
-  list-style: none;
+.image-gallery img{
+  width: 100px;
+  height: 100px;
+  transition: 0.5s;
 }
-.hero-side-buttons li a {
-  color: white;
-  text-decoration: none;
-  font-family: Quicksand;
+.image-gallery img:hover{
+  transform: scale(2.4, 2.4);
+  transition: 0.5s;
 }

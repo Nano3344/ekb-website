@@ -9,9 +9,6 @@
    margin: 8px 0px;
    height: 5px;
 }
-.burger-menu:hover {
-  
-}
 .hero-wrapper {
   padding-top: 150px;
   padding-left: 100px;
@@ -40,7 +37,6 @@ margin-top: -278px;
   max-width: 150px;
   background-color: white;
   padding: 2px;
-  visibility: hidden;
 }
 .contact-button {
   display: flex;

@@ -4,15 +4,17 @@
 }
 .grid-layout {
   padding-top: 200px;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 .grid-layout div {
   display: grid;
   grid-template-columns: 25% 25% 25%;
-  grid-column-gap: 2em;
+  padding: 20px;
+  margin: 30px;
+  background-color: white;
 }
 .grid-layout p {
-  color: white;
+  color: #29B6F6;
   font-family: Quicksand;
 }
 .hero-footer {

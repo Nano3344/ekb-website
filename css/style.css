@@ -56,11 +56,6 @@ header li a {
   font-family: Quicksand;
   transition: 0.5s;
 }
-@media (max-width:1100px) {
-   header li a {
-     visibility: hidden;
-   }
-}
 @media (max-width: 1300px) {
    header h2 {
      font-size: 16px;

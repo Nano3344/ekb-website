@@ -1,3 +1,7 @@
+@font-face {
+  src: url("/fonts/Raleway-Light.ttf");
+  font-family: Raleway;
+}
 .hero-wrapper {
   padding-top: 150px;
   padding-left: 100px;
@@ -13,45 +17,9 @@
   padding-top: 20px;
   color: white;
   text-align: justify;
-  font-family: Quicksand;
+  font-family: Raleway;
 }
 .hero-textfield a {
-  color: #FF5722;
-}
-.dropdown-content {
-  float: right;
-  max-width: 150px;
-  background-color: white;
-  padding: 2px;
-}
-.contact-button {
-  display: flex;
-  justify-content: center;
-  padding-top: 6px;
-}
-.contact-button a {
-  color: white;
-  font-size: 12px;
-  font-family: Quicksand;
-  text-decoration: none;
-  padding: 6px 20px;
-  background-color: #FF5722;
-}
-.dropdown-content a:hover {
-  transition: 0.5s;
-  background-color: #29B6F6;
-}
-.dropdown-content h2 {
-  font-size: 15px;
-  text-align: center;
-  color: #FF5722;
-  font-family: sans-serif;
-}
-.dropdown-content p {
-  text-align: center;
-  font-size: 12px;
-  padding: 10px 6px;
-  font-family: Quicksand;
   color: #FF5722;
 }
 @media (max-width:560px) {

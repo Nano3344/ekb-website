@@ -1,3 +1,7 @@
+@font-face {
+  src: url("/fonts/Raleway-Light.ttf");
+  font-family: Raleway;
+}
 .textfield {
   display: flex;
   padding-top: 200px;
@@ -11,7 +15,7 @@
   padding: 20px;
   color: white;
   font-size: 13px;
-  font-family: Quicksand;
+  font-family: Raleway;
 }
 .textfield h3 {
   text-align: center;

@@ -1,15 +1,19 @@
+@font-face {
+  src: url("/fonts/Raleway-Light.ttf");
+  font-family: Raleway;
+}
 .main-text {
   max-width: 800px;
   padding-top: 150px;
   padding-left: 50px;
 }
 .main-text p {
-  font-family: Quicksand;
+  font-family: Raleway;
   color: white;
   text-align: justify;
 }
 .main-text li {
-  font-family: Quicksand;
+  font-family: Raleway;
   padding-top: 5px;
   color: white;
   text-align: justify;

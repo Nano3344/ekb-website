@@ -50,9 +50,6 @@ header li {
   float: right;
   padding: 20px;
 }
-header li:first-child {
-
-}
 header li a:hover {
   transition: 0.5s;
   color:  #29B6F6;
@@ -109,6 +106,7 @@ header li a {
   font-family: Raleway;
   color: #FF5722;
 }
+
 .hero-footer {
   position: fixed;
   bottom: 0;

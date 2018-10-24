@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="image icon" type="image/png" href="img/Logo.png">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/Kontakt.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -55,5 +56,38 @@
      </div>
      </div>
    </footer>
+
+   <script>
+   $(document).ready(function(){
+
+     /* Highlight current page function */
+
+   $('nav').on('click', 'li', function() {
+       $('nav li.active').removeClass('active');
+       $(this).addClass('active');
+   });
+
+   /* Dropdown function */
+
+   function dropDown() {
+     document.getElementById('content').classList.toggle('show');
+   }
+
+   window.onclick = function(event) {
+     if (!event.target.matches('.dropdown')) {
+
+       var dropdowns = document.getElementsByClassName("dropdown-content");
+       var i;
+       for (i = 0; i < dropdowns.length; i++) {
+         var openDropdown = dropdowns[i];
+         if (openDropdown.classList.contains('show')) {
+           openDropdown.classList.remove('show');
+         }
+       }
+     }
+   }
+   });
+
+   </script>
   </body>
 </html>

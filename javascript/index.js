@@ -1,7 +1,8 @@
 /* Underline nav-bar effect */
+$(document).ready(function(){
 
-$('nav').on('click', 'li', function() {
-    $('nav li.active').removeClass('active');
+$('nav').on('click', 'a', function() {
+  $('nav a.active').removeClass('active');
     $(this).addClass('active');
 });
 
@@ -24,3 +25,4 @@ window.onclick = function(event) {
     }
   }
 }
+});

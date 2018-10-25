@@ -7,7 +7,7 @@ if(isset($_POST['submit'])) {
   $nachricht = $_POST['Nachricht'];
 
   $emailFrom = $email;
-  $emailTo = "kontakt@ekb-energy.de";
+  $emailTo = "malik.ebers@web.de";
 
   setcookie('Information', $name, $betreff, $email, $nachricht, time()+3600);
 
@@ -15,5 +15,5 @@ if(isset($_POST['submit'])) {
   $txt = "You have received an email from ".$name.".\n\n".$nachricht;
 
   mail($emailTo, $betreff, $nachricht, $headers);
-  header("Location: ../index.html");
+  header("Location: index.html");
 }

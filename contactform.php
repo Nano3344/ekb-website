@@ -7,7 +7,7 @@ if(isset($_POST['submit'])) {
   $nachricht = $_POST['Nachricht'];
 
   $emailFrom = $email;
-  $emailTo = "malik.ebers@web.de";
+  $emailTo = "m.heiden@ekb-energy.de, m.adler@ekb-energy.de, o.felgentreu@ekb-energy.de";
 
   setcookie('Information', $name, $betreff, $email, $nachricht, time()+3600);
 

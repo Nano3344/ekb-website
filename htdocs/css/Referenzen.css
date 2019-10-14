@@ -1,0 +1,26 @@
+@font-face {
+  src: url("/fonts/Raleway-Light.ttf");
+  font-family: Raleway;
+}
+.Grid {
+  display: flex;
+  justify-content: center;
+}
+.grid-layout {
+  padding-top: 200px;
+  max-width: 1300px;
+}
+.grid-layout div {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  padding: 20px;
+  margin: 30px;
+  background-color: white;
+}
+.grid-layout p {
+  color: #29B6F6;
+  font-family: Raleway;
+}
+.hero-footer {
+  position: relative;
+}

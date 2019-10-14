@@ -5,37 +5,24 @@
     <link rel="image icon" type="image/png" href="img/Logo.png">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Datenschutz.css">
     <title>Elektro Komplett Bau - Home</title>
   </head>
   <body>
     <header>
-      <h2>EKB Elektro Komplett Bau GmbH</h2>
+      <h2>EKB</h2>
    <nav class="nav-bar">
-     <li><a href="#">Info</a></li>
-     <li><a href="Datenschutz.html">Datenschutz</a></li>
-     <li><a href="Impressum.html">Impressum</a></li>
-     <li><a href="Referenzen.html">Referenzen</a></li>
-     <li><a href="Leistungen.html">Leistungen</a></li>
      <li><a href="index.html">Home</a></li>
+     <li><a href="Leistungen.html">Leistungen</a></li>
+     <li><a href="Referenzen.html">Referenzen</a></li>
+     <li><a href="Impressum.html">Impressum</a></li>
+     <li><a href="Datenschutz.html">Datenschutz</a></li>
+     <li><a href="Kontakt.html">Kontakt</a></li>
     </nav>
    </header>
-   <div class="dropdown">
-   <div class="dropdown-content" id="content">
-     <p>EKB Elektro Komplett Bau GmbH</p>
-     <p>Geschwister Schollstraße 21</p>
-     <p>06886 Wittenberg</p>
-     <p>Telefon: +49 3491 677 99 20</p>
-     <p>E-Mail: kontakt@ekb-energy.de</p>
-     <p>Montag-Freitag: 7-16 uhr</p>
-     <div class="contact-button">
-     <a href="Kontakt.html">Kontakt</a>
-   </div>
-   </div>
- </div>
-   <main>
-     <div class="main">
+   <div class="main">
+     <div class="background-image" style="background-image: url(img/Background.jpg)"></div>
+     <div class="main-text">
      <p>
       <strong>Datenschutzerklärung:</strong>
        Geltungsbereich und Umgang mit personenbezogenen Daten
@@ -54,50 +41,20 @@
        falscher Daten zu veranlassen, soweit keine gesetzliche Aufbewahrungspflicht zu beachten ist.
      </p>
    </div>
-   </main>
+   </div>
    <footer>
-     <div class="hero-footer">
-       <p class="copyright">&copy;EKB Elektro Komplett Bau GmbH</p>
-       <div class="social media">
-       <a href="https://twitter.com/i/flow/consent_flow"><i class="fab fa-twitter fa-2x"></i></a>
-       <a href="https://www.instagram.com/?hl=de"><i class="fab fa-instagram fa-2x"></i></a>
-       <a href="https://www.facebook.com/EKB-Elektro-Komplett-Bau-GmbH-1477558369036816/"><i class="fab fa-facebook-square fa-2x"></i></a>
-       <p>Unser social media</p>
-     </div>
-     </div>
+     <div class="section-1">
+     <p class="copyright">&copy;EKB Elektro Komplett Bau GmbH</p>
+     <p>Geschwister Schollstraße 21</p>
+   </div>
+   <div class="section-2">
+     <p>06886 Wittenberg</p>
+     <p>Telefon: +49 3491 677 99 20</p>
+   </div>
+   <div class="section-3">
+     <p>E-Mail: kontakt@ekb-energy.de</p>
+     <p>Montag-Freitag: 7-16 uhr</p>
+   </div>
    </footer>
-
-   <script>
-   $(document).ready(function(){
-
-     /* Highlight current page function */
-
-   $('nav').on('click', 'li', function() {
-       $('nav li.active').removeClass('active');
-       $(this).addClass('active');
-   });
-
-   /* Dropdown function */
-
-   function dropDown() {
-     document.getElementById('content').classList.toggle('show');
-   }
-
-   window.onclick = function(event) {
-     if (!event.target.matches('.dropdown')) {
-
-       var dropdowns = document.getElementsByClassName("dropdown-content");
-       var i;
-       for (i = 0; i < dropdowns.length; i++) {
-         var openDropdown = dropdowns[i];
-         if (openDropdown.classList.contains('show')) {
-           openDropdown.classList.remove('show');
-         }
-       }
-     }
-   }
-   });
-
-   </script>
   </body>
 </html>

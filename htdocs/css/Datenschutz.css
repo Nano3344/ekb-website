@@ -1,0 +1,18 @@
+@font-face {
+  src: url("/fonts/Raleway-Light.ttf");
+  font-family: Raleway;
+}
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main p{
+  max-width: 700px;
+  text-align: justify;
+  padding: 20px;
+  color: white;
+  font-size: 13px;
+  font-family: Raleway;
+}
